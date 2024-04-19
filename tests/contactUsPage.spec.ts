@@ -1,6 +1,6 @@
 import { test, expect, type Page } from '@playwright/test';
-import { ContactUsForm } from '../pageObjects.ts/contactUsPage';
-import { DataGenerators } from '../pageObjects.ts/dataGenerators';
+import { ContactUsForm } from './util/contactUsPage';
+import { DataGenerators } from './util/dataGenerators';
 import { faker } from '@faker-js/faker';
 
 
